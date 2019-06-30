@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+  }
+body {
+    width: 100%;
+    margin: 0 auto; 
+}
+header {
+    width: 100%;
+    margin: 0; 
+}
+.upper-nav{
+    background-color:#343a40;
+    height: 48px;
+}
+.upper-nav-text{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    height: inherit;
+}
+.upper-nav-text h1, p{
+    display: inline-block;
+    height: inherit;
+}
+.upper-nav-text h1{
+    float: left;
+    color: #69db7c;
+    font-size: 2rem;
+    padding: 0 16px;
+    vertical-align: middle;
+}
+.upper-nav-text p{
+    float: right;
+    margin-right: 0;
+    border: solid white;
+}
